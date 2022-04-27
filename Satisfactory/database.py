@@ -15,6 +15,8 @@ def _createSatisfactory(db_file):
     cursor.execute('''CREATE TABLE IF NOT EXISTS "resources" 
     ("name"	TEXT NOT NULL, "resource" TEXT NOT NULL, "mk_version" INTEGER NOT NULL DEFAULT 1, "quality"	TEXT NOT NULL, 
     "quantity_buildings" INTEGER NOT NULL DEFAULT 1, PRIMARY KEY("name"))''')
+    connection.commit()
+    connection.close()
 
 
 

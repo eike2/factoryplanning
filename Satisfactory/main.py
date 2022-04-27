@@ -2,8 +2,8 @@ import sys
 
 from PyQt5.QtWidgets import QApplication
 
-from .database import createConnection
-from .gui import Window
+from Satisfactory.database import createConnection
+from Satisfactory.gui import Window
 
 
 def main():

@@ -12,6 +12,7 @@ def main():
     """Factoryplanning main function."""
     # Create the application
     app = QApplication(sys.argv)
+
     # Force the style to be the same on all OSs:
     app.setStyle("Fusion")
 

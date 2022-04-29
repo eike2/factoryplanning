@@ -1,6 +1,6 @@
 import sys
 
-from PyQt5.QtWidgets import QApplication
+from PySide6.QtWidgets import QApplication
 
 from Satisfactory.database import createConnection
 from Satisfactory.gui import Window

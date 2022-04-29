@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QMessageBox
+from PySide6.QtWidgets import QMessageBox
 import sqlite3
 from sqlite3 import Error
 

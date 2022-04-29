@@ -12,7 +12,7 @@ class Window(QMainWindow):
         super().__init__()
 
         self.setGeometry(600, 300, 600, 400)
-        self.setWindowTitle("Satisfactoyplanner")
+        self.setWindowTitle("Satisfactoryplanner")
         self.label = QLabel()
         self.button = QPushButton("Refresh")
         self.button.released.connect(self.calculate_button)
